@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="icon" href="./pico logo.png">
+    <title>Pico Pocket|Contact</title>
+    <style>
+        body {
+            background-color: rgb(31, 31, 31);
+            padding: 0px;
+            margin: 0px;
+            overflow-x: hidden;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            overflow-y: scroll;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        .foota {
+            display: block;
+            width: 100%;
+            height: 20vh;
+            background-color: rgb(34, 34, 34);
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-light bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="./index.html">
+                <img src="./pico logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                Pico Pocket
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <hr>
+              <H4 class="text-warning text-justify">We take each and every request, message, and problem seriously under our terms of service and respond accuratley and efficiently based on the problem at hand. We ask for a clear response so we can help sort out problems and complete our tasks.</H4>
+            </div>
+            <div class="col-sm-5">
+                <img src="./New Arrival.png" class="img-fluid mx-auto"><Br></Br>
+                <label for="type of problem" class="text-light h3 vw-50">Type of problem/report</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Please select an option</option>
+                    <option value="1">Hardware Problem</option>
+                    <option value="2">Software Problem</option>
+                    <option value="3">Unsure</option>
+                    <option value="4">Minor Issue</option>
+                    <option value="5">Profile Problem</option>
+                    <option value="6">Legal Problem</option>
+                    <option value="7">Harassment</option>
+                    <option value="8">Cyber Bullying</option>
+                    <option value="9">Safety and Protection Problem</option>
+                    <option value="10">Other</option>
+                </select>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-light h3 vw-50">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label text-light h3 vw-50">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <label for="formFileLg" class="form-label text-light h3 vw-50">Problem/evidence file</label>
+                        <input class="form-control form-control-lg" id="formFileLg" type="file">
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary vw-50" type="submit" onclick="complet()">Submit message</button>
+                    </div>
+                </form>
+                <hr>
+            </div>
+            <div class="col-sm-4">
+                <H1 class="text-light vw-50">More Context</H1>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed vw-50" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Hardware Problem
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse vw-50" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A malfunction within the electronic circuits or electromechanical components (disks, tapes) of a computer system. Recovery from a hardware failure requires repair or replacement of the offending part. Contrast with software failure.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed vw-50" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Software Problem
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse vw-50" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Software Problem means a defect in the Software distribution media and or Software function which is inconsistent with the Software Specification.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed vw-50" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Minor Issue
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse vw-50" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Minor Problem(s) means any detected condition in the SOFTWARE that is not a Critical or Major Problem, that affects the service or operation of a Specific NORTEL Product and is due to non-conformance of the SOFTWARE with the Specifications.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed vw-50" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                          Profile Problem
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFour" class="accordion-collapse collapse vw-50" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A Malfuntion or error when it comes to your social profile on the device. Either not connecting the account all the way to fraud</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed vw-50" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                          Legal Problem
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFive" class="accordion-collapse collapse vw-50" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Legal issue or issue of law is a legal question which is the foundation of a case. It requires a court's decision. It can also refer to a point on which the evidence is undisputed, the outcome of which depends on the court's interpretation of the law.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed vw-50" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                          Harrasment
+                        </button>
+                      </h2>
+                      <div id="flush-collapseSix" class="accordion-collapse collapse vw-50" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The civil harassment laws say “harassment” is: Unlawful violence, like assault or battery or stalking, OR. A credible threat of violence, AND. The violence or threats seriously scare, annoy, or harass someone and there is no valid reason for it.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingSeven">
+                        <button class="accordion-button collapsed vw-50" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                          Cyber-Bullying
+                        </button>
+                      </h2>
+                      <div id="flush-collapseSeven" class="accordion-collapse collapse vw-50" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Cyberbullying or cyberharassment is a form of bullying or harassment using electronic means. Cyberbullying and cyberharassment are also known as online bullying. It has become increasingly common, especially among teenagers, as the digital sphere has expanded and technology has advanced.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingEight">
+                        <button class="accordion-button collapsed vw-50" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                          Safety and Protection Problem
+                        </button>
+                      </h2>
+                      <div id="flush-collapseEight" class="accordion-collapse collapse vw-50" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A Safety Concern is defined as any condition, practice, or violation that causes a substantial probability of physical harm, property loss, and/or environmental impact such as: Loose railing on a stairwell. Tripping hazards. Anything you feel has the potential to cause harm to people, property, or the environment.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <footer class="foota position-releative bottom-0 start-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1 p-2 align-content-center">
+                    <img class="img-fluid" src="./6636566_instagram_social media_social network_icon.png"
+                        style="width:50px; height:50px;"><br>
+                    <img class="img-fluid" src="./4550857_email_gmail_mail_sending_yahoo_icon.png"
+                        style="width:50px; height:50px;"><br>
+                    <img class="img-fluid" src="./1233015_twitter_icon.png"
+                        style="width:50px; height:50px;">
+                </div>
+                <div class="col-sm-2 p-2">
+                    <h3 class="p-1 text-light vw-50">Instagram:</h3>
+                    <h3 class="p-1 text-light vw-50">E-mail:</h3>
+                    <h3 class="p-1 text-light">Twitter:</h3>
+                </div>
+                <div class="col-sm-2 p-2">
+                    <h4 class="p-2 text-light vw-50">@PocketofPico</h4>
+                    <h4 class="p-2 text-light vw-50">picosmaile@gmail.com</h4>
+                    <h4 class="p-2 text-light vw-50">@PocketofPicoREAL</h4>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5 text-end text-light">
+                    <h2 class="vw-50"> Any illegal reproduction of this content will result in immediate legal action</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function complet(){
+            window.alert("Message Sent")
+        }
+    </script>
+</body>
+
+</html>

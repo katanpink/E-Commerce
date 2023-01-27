@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="icon" href="./pico logo.png">
+    <title>Pico Pocket|Store</title>
+    <style>
+        body {
+            background-color: rgb(31, 31, 31);
+            padding: 0px;
+            margin: 0px;
+            overflow-x: hidden;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            overflow-y: scroll;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        .foota {
+            display: block;
+            width: 100%;
+            height: 20vh;
+            background-color: rgb(34, 34, 34);
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-light bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="./index.html">
+                <img src="./pico logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                Pico Pocket
+            </a>
+        </div>
+    </nav>
+    <H1 class="text-light text-center p-2 H1">Order Form</H1>
+
+    <div class="container p-2">
+        <div class="row row-cols-3 row-cols-lg-3">
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./s-l500.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">Rivals pico set</h5>
+                        <p class="card-text text-light vw-50">Get started with a friend and battle it out with 2 RGR2100 Pico
+                            Pockets. With 2 stock pico pockets users can give their all in online and local play with
+                            them and a friend with custom shelling.</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="Rivals Set" onclick="orderpop()">Copy to
+                            Clipboard|$110</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./71TJ3vAomqL.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">RGR2100 Deluxe</h5>
+                        <p class="card-text text-light">RGR2100 Deluxe is for users who want the best of the best
+                            experience for the pico pocket. It comes with replacible buttons, a repair kid, a 2 gb hard
+                            drive, and $20 in the in console market</p>
+                        <a href="#order" class="btn btn-primary" name="RGR2100D" onclick="orderpop()">Copy to
+                            Clipboard|$90</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./H8c52c32b658444b5bc87b22c2f11fe5eG.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">RGR1100</h5>
+                        <p class="card-text text-light vw-50">Some people want to grap the classic game boy feel, we gotchu.
+                            The RGR1100 contain the same technology as the RGR1100 without a wifi extension. This is for
+                            player who want a solo feel</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="RGR1100" onclick="orderpop()">Copy to Clipboard|$50</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./rg353p_01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">RGG100</h5>
+                        <p class="card-text text-light vw-50">A previous version of the RGR1100. Compatible with many dsi
+                            files and non 3d games. Online compatibility with future consoles and games still apply</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="RGG100" onclick="orderpop()">Copy to Clipboard|$35</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./s-l500.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">RGR2100</h5>
+                        <p class="card-text  text-ligh vw-50t">The classic pico pocket with custom shelling and buttons(in the
+                            form).Can be traded in.</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="RGR2100" onclick="orderpop()">Copy to Clipboard|$60</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mx-auto mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./RG280V.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">HFG2100</h5>
+                        <p class="card-text text-light vw-50">The smallest Pico Pocket console to this day for users who are
+                            going on trips and are looking for mobility with the device.</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="HFG2100" onclick="orderpop()">Copy to Clipboard|$20</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./61x+irB4zbL.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">USB Type-C Charger</h5>
+                        <p class="card-text text-light vw-50">Charges all pico pocket products.</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="Charger" onclick="orderpop()">Copy to Clipboard|$35</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./imageService.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">Skullcandy Evos</h5>
+                        <p class="card-text  text-light vw-50">For the best audio on devices.</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="Evos" onclick="orderpop()">Copy to Clipboard|$60</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mx-auto mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./432837_406645_01_front_comping.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dual Male USB</h5>
+                        <p class="card-text text-light">Connects 2 devices.</p>
+                        <a href="#order" class="btn btn-primary" name="USB" onclick="orderpop()">Copy to Clipboard|$20</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./41-C--qGg8L._AC_SY780_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">64GB SD</h5>
+                        <p class="card-text text-light vw-50">Adds more storage to the pico pocket devices.</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="SD" onclick="orderpop()">Copy to Clipboard|$35</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card  mx-auto  mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./download (1).jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">Capture card</h5>
+                        <p class="card-text  text-light vw-50">Used to play the Pico Pocket on different displays</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="CaptureC" onclick="orderpop()">Copy to
+                            Clipboard|$60</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mx-auto mt-5 bg-secondary" style="width: 18rem;">
+                    <img src="./4476597.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title vw-50">StarTech Wifi USB</h5>
+                        <p class="card-text text-light vw-50">Allows access to wifi for outdated emulators and pico pockets.
+                            Comes with a 3 month warrenty</p>
+                        <a href="#order" class="btn btn-primary vw-50" name="WifiUSB" onclick="orderpop()">Copy to Clipboard|$20</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center p-3" id="order">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mx-auto vw-50" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ready to order
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title vw-50" id="exampleModalLabel">Order form</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col" id="order">
+                                    <form class="row g-3 needs-validation" novalidate>
+                                        <div class="col-md-4">
+                                            <label for="validationCustom01" class="form-label vw-50 ">First
+                                                name</label>
+                                            <input type="text" class="form-control" id="validationCustom01"
+                                                placeholder="Mark" required>
+                                            <div class="valid-feedback vw-50">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="validationCustom02" class="form-label vw-50 ">Last
+                                                name</label>
+                                            <input type="text" class="form-control" id="validationCustom02"
+                                                placeholder="Otto" required>
+                                            <div class="valid-feedback vw-50">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="validationCustomUsername" class="form-label vw-50 ">Item
+                                                name</label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                                <input type="text" class="form-control" id="validationCustomUsername"
+                                                    aria-describedby="inputGroupPrepend" required>
+                                                <div class="invalid-feedback vw-50">
+                                                    Please choose a username.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="validationCustom03" class="form-label">City</label>
+                                            <input type="text" class="form-control" id="validationCustom03" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid city.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="validationCustom04" class="form-label vw-50">State</label>
+                                            <select class="form-select" id="validationCustom04" required>
+                                                <option selected disabled value="" class="vw-50">Choose...</option>
+                                                <option class="vw-50">Alabama</option>
+                                                <option class="vw-50">Alaska</option>
+                                                <option class="vw-50">Arizona</option>
+                                                <option class="vw-50">Arkansas</option>
+                                                <option class="vw-50">California</option>
+                                                <option class="vw-50">Colorado</option>
+                                                <option class="vw-50">Connecitut</option>
+                                                <option class="vw-50">Delaware</option>
+                                                <option class="vw-50">Florida</option>
+                                                <option class="vw-50">Georgia</option>
+                                                <option class="vw-50">Hawaii</option>
+                                                <option class="vw-50">Idaho</option>
+                                                <option class="vw-50">Illinois</option>
+                                                <option class="vw-50">Indiana</option>
+                                                <option class="vw-50">Iowa</option>
+                                                <option class="vw-50">Kansas</option>
+                                                <option class="vw-50">Kentucky</option>
+                                                <option class="vw-50">Louisiana</option>
+                                                <option class="vw-50">Maine</option>
+                                                <option class="vw-50">Maryland</option>
+                                                <option class="vw-50">Massachusetts</option>
+                                                <option class="vw-50">Michigan</option>
+                                                <option class="vw-50">Minnesota</option>
+                                                <option class="vw-50">Mississipi</option>
+                                                <option class="vw-50">Missouri</option>
+                                                <option class="vw-50">Montana</option>
+                                                <option class="vw-50">Nebraska</option>
+                                                <option class="vw-50">Nevada</option>
+                                                <option class="vw-50">New Hampshire</option>
+                                                <option class="vw-50">New Jersey</option>
+                                                <option class="vw-50">New Mexico</option>
+                                                <option class="vw-50">New York</option>
+                                                <option class="vw-50">North Carolina</option>
+                                                <option class="vw-50">North Dakota</option>
+                                                <option class="vw-50">Ohio</option>
+                                                <option class="vw-50">Oklahoma</option>
+                                                <option class="vw-50">Oregon</option>
+                                                <option class="vw-50">Pennsylvania</option>
+                                                <option class="vw-50">Rhode Island</option>
+                                                <option class="vw-50">South Carolina</option>
+                                                <option class="vw-50">South Dakota</option>
+                                                <option class="vw-50">Tennesse</option>
+                                                <option class="vw-50">Texas</option>
+                                                <option class="vw-50">Utah</option>
+                                                <option class="vw-50">Vermont</option>
+                                                <option class="vw-50">Virginia</option>
+                                                <option class="vw-50">Washington</option>
+                                                <option class="vw-50">West Virgina</option>
+                                                <option class="vw-50">Wisconsin</option>
+                                                <option class="vw-50">Wyoming</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Please select a valid state.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="validationCustom05" class="form-label vw-50">Zip</label>
+                                            <input type="text" class="form-control" id="validationCustom05" required>
+                                            <div class="invalid-feedback vw-50">
+                                                Please provide a valid zip.
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="invalidCheck" required>
+                                                <label class="form-check-label vw-50" for="invalidCheck">
+                                                    Agree to terms and conditions
+                                                </label>
+                                                <div class="invalid-feedback vw-50">
+                                                    You must agree before submitting.
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <label for="exampleColorInput" class="form-label vw-50">Pick the color
+                                                of your
+                                                device</label>
+                                            <input type="color" class="form-control form-control-color vw-50"
+                                                id="exampleColorInput" value="#563d7c" title="Choose your color">
+                                        </div>
+                                        <label for="customRange1" class="form-label vw-50">Button and joystick
+                                            stiffness:<br>loose-stiff</label>
+                                        <input type="range" class="form-range" id="customRange1">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary vw-50" data-bs-dismiss="modal"
+                            onclick="complet()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="foota">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1 p-2 align-content-center">
+                    <img class="img-fluid" src="./6636566_instagram_social media_social network_icon.png"
+                        style="width:50px; height:50px;"><br>
+                    <img class="img-fluid" src="./4550857_email_gmail_mail_sending_yahoo_icon.png"
+                        style="width:50px; height:50px;"><br>
+                    <img class="img-fluid" src="./1233015_twitter_icon.png" style="width:50px; height:50px;">
+                </div>
+                <div class="col-sm-2 p-2">
+                    <h3 class="p-1 text-light vw-50">Instagram:</h3>
+                    <h3 class="p-1 text-light vw-50">E-mail:</h3>
+                    <h3 class="p-1 text-light vw-50">Twitter:</h3>
+                </div>
+                <div class="col-sm-2 p-2">
+                    <h4 class="p-2 text-light vw-50">@PocketofPico</h4>
+                    <h4 class="p-2 text-light vw-50">picosmaile@gmail.com</h4>
+                    <h4 class="p-2 text-light vw-50">@PocketofPicoREAL</h4>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5 text-end text-light">
+                    <h2 class="vw-50"> Any illegal reproduction of this content will result in immediate legal action</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script defer>
+        function complet() {
+            window.alert("Message Sent")
+        }
+        function orderpop(x) {
+            copyText = x.name
+
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+
+            navigator.clipboard.writeText(copyText.value);
+
+            alert("Copied the text: " + copyText.value);
+        }
+    </script>
+</body>
+
+</html>
